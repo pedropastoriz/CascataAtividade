@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Kumar+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin-top: 5px;
+}
+
+body {
+    height: 100vh;
+    background-color: #6AC5CB;
+}
+
+.container-tela-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-tela-inicial h1 {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container-tela-inicial p {
+    font-family: "Kumar One", serif;
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-botao-inicial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.botao-inicial {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.botao-inicial a {
+    text-decoration: none;
+    background: #f8f1e6;
+    padding: 20px 300px;
+    border-radius: 15px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.botao-inicial img {
+    height: 25px;
+}
