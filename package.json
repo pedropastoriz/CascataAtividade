@@ -1,0 +1,15 @@
+{
+  "name": "cascataatividade",
+  "version": "1.0.0",
+  "description": "Atividade proposta pelo prof Zanin, de documentação, back e front.",
+  "main": "calculadora1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

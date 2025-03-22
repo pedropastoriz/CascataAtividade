@@ -1,32 +1,29 @@
-// Entrada de 2 números
-let n1 = parseFloat(prompt('Digite o número: '));
+function verificarCaracteristicas() {
+    const numero = parseFloat(document.getElementById('numero').value);
+    let resultado = '';
 
-// Função para verificar as características de um número
-function verificarCaracteristicas(numero) {
     // Verificar se o número é par ou ímpar
     if (numero % 2 === 0) {
-        alert("O número é par.");
+        resultado += "O número é par.\n";
     } else {
-        alert("O número é ímpar.");
+        resultado += "O número é ímpar.\n";
     }
 
     // Verificar se o número é positivo, negativo ou neutro
     if (numero > 0) {
-        alert('O número é positivo.');
+        resultado += 'O número é positivo.\n';
     } else if (numero === 0) {
-        alert('O número é neutro.');
+        resultado += 'O número é neutro.\n';
     } else {
-        alert('O número é negativo.');
+        resultado += 'O número é negativo.\n';
     }
 
     // Verificar se o número é inteiro ou decimal
     if (numero % 1 === 0) {
-        alert('O número é inteiro.');
+        resultado += 'O número é inteiro.\n';
     } else {
-        alert('O número é decimal.');
+        resultado += 'O número é decimal.\n';
     }
-}
 
-// Verificar as características dos dois números
-verificarCaracteristicas(n1);
-verificarCaracteristicas(n2);
+    document.getElementById('resultado').innerText = resultado;
+}
