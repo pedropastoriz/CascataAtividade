@@ -12,4 +12,4 @@ A página "ele-é" permite que o usuário insira um número, que pode ser inteir
 
 Atualmente, o sistema não utiliza banco de dados. As tecnologias empregadas incluem Node.js, Express.js e JavaScript no lado do cliente para interação básica. Os arquivos HTML e scripts são servidos de forma estática, com lógica executada diretamente no navegador.
 
-O projeto foi idealizado e está em desenvolvido pelos alunos da turma da manhã da São Judas Tadeu, unidade Avenida Paulista.
+O projeto foi idealizado e está em desenvolvido pelos alunos da turma de alunos do professor Luiz Felipe Zanin Garcia, de tecnologia, do turno da manhã da Universidade São Judas Tadeu, unidade Avenida Paulista.
