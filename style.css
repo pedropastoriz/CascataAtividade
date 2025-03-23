@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Kumar+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+body {
+    height: 100vh;
+    background-color: #6AC5CB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*TELA PRINCIPAL*/
+
+.container-tela-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-tela-inicial h1 {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container-tela-inicial p {
+    font-family: "Kumar One", serif;
+    font-size: 32px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-botao-inicial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.botao-inicial {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.botao-inicial a {
+    text-decoration: none;
+    background: #f8f1e6;
+    padding: 20px 300px;
+    border-radius: 15px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+}
+
+.botao-inicial img {
+    height: 25px;
+}
+
+/*TELA CALCULADORA*/
+
+.container-calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 7rem;
+    gap: 3rem;
+    margin-bottom: 3.5rem;
+}
+
+.inputs-resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputs-resultado input {
+    width: 21rem;
+    height: 3.75rem;
+    border: none;
+    background-color:#F9EBDB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container-calculadora h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9.3rem;
+    height: 7.5rem;
+    background-color: #F9EBDB;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+.container-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.container-voltar a {
+    background-color: #F9EBDB;
+    color: #000;
+    border: none;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    width: 15.6rem;
+    height: 3.125rem;
+}
+
+.calculadora-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-left: 12rem;
+}
+
+.calculadora-botoes button {
+    width: 4.375rem;
+    height: 3.75rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9EBDB;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
