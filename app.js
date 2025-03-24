@@ -1,14 +1,20 @@
-console.log("Rodando...");
-
 const express = require('express');
 const path = require('path');
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.urlencoded({ extended: true }));
+console.log("Rodando...");
 
-// Rotas
-app.use('/', require('./routes/index'));
+// Servir arquivos estáticos
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Usar rotas
+const indexRouter = require('./routes/index');
+const calcRouter = require('./routes/calculadora1');
+const eleERouter = require('./routes/ele-e');
+
+app.use('/', indexRouter);
+app.use('/calculadora1', calcRouter);
+app.use('/ele-e', eleERouter);
 
 const PORT = 3000;
 app.listen(PORT, () => {

@@ -1,3 +1,12 @@
+const app = document.getElementById("app");
+
+const titulo = document.createElement("h1");
+titulo.textContent = "Calculadora";
+
+// ... (resto do código que você colou antes)
+
+app.append(titulo, input1, input2, select, btn, resultado);
+
 function calcular(operador) {
   const n1 = parseFloat(document.getElementById('n1').value);
   const n2 = parseFloat(document.getElementById('n2').value);
@@ -29,3 +38,5 @@ function calcular(operador) {
 
   document.getElementById('resultado').innerText = `Resultado: ${resultado}`;
 }
+
+app.append(titulo, input1, input2, select, btn, resultado);
