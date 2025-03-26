@@ -36,7 +36,7 @@ function calcular(operador) {
   // Arredondamento para 2 casas decimais
   resultado = Math.round(resultado * 100) / 100;
 
-  document.getElementById('resultado').innerText = `Resultado: ${resultado}`;
+  document.getElementById('resultado').innerText = resultado;
 }
 
 app.append(titulo, input1, input2, select, btn, resultado);
