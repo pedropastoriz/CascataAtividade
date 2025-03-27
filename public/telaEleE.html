@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Numetrix - Ele é?</title>
 </head>
 <body>
+
+    <header>
+        <h1 class="eleE-titulo">Ele é <img src="/img/bandeira.png"> ?</h1>
+    </header>
+    
+        <div class="container-eleE">
+            <div class="lista-tipos">
+                <ul>
+                    <li>Par</li>
+                    <li>Impar</li>
+                    <li>Negativo</li>
+                    <li>Positivo</li>
+                </ul>
+            </div>
+            <div class="input-resultado-eleE">
+                <input type="number" id="numero" placeholder="Coloque o seu número" oninput="verificarCaracteristicas()">
+                <h2>O seu número <br>é...</h2>
+                <h3><span id="resultado"></span></h3>
+            </div>
+        </div>
+        <div class="container-voltar">
+        <a href="index.html">VOLTAR</a>
+        </div>
+    <div id="app"></div>
     
 <script src="ele-e.js"></script> <!-- Este é o frontend -->
 </body>
